@@ -1,0 +1,43 @@
+#center {
+    margin-top: 150px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+button {
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:active{
+    background-color: gray;
+}
+
+p {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 24px;
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
